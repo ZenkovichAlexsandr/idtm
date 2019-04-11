@@ -19,7 +19,7 @@ I try to cover Admin UI that helps to create a new messenger app with ability to
 
 ```
 
-#####Endpoints
+###Endpoints
 1. Create/Delete messenger
 2. Enable/Disable feature
 3. Customize skin
@@ -28,14 +28,14 @@ I try to cover Admin UI that helps to create a new messenger app with ability to
 6. Monitoring
 
 
-#####How would you design and implement an admin UI for the messaging backend?
+###How would you design and implement an admin UI for the messaging backend?
 It will be single page application. We can split our UI on small components and build our page with this components. 
 It give us ability to don't repeat yourself and do not reproduce the same logic many times. 
 Interface of app should be simple and user friendly.
 Backend part will be used just as REST API, and most of logic will be done on the UI part to speed up the response process. 
 
   
-#####Discuss implementation details, security, availability, and other considerations
+###Discuss implementation details, security, availability, and other considerations
 Our UI app will be placed in a cloud provider as and our back part. 
 It will give us better security and availability and performance. 
 This app will be in different Regions and Zones.
